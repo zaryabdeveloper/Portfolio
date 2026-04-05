@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zaryab — Frontend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="imgs/portfolio.png" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">Z<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge"><span class="badge-dot"></span> Available for Work</div>
+    <h1 class="hero-name">
+      <span class="line1">Zaryab</span>
+      <span class="line2">Develops.</span>
+    </h1>
+    <p class="hero-title">Frontend Developer — <strong><span id="typed-text">UI/UX Craftsman</span><span class="typed-cursor"></span></strong></p>
+    <p class="hero-desc">I design and build beautiful, performant web experiences that users love. Specializing in turning ideas into pixel-perfect, interactive digital products.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">View My Work →</a>
+      <a href="#contact" class="btn-secondary">Let's Connect</a>
+    </div>
+  </div>
+
+  <div class="hero-float">
+    <div class="float-card">
+      <div class="float-label">Projects Done</div>
+      <div class="float-value">15+</div>
+      <div class="float-sub">Across various domains</div>
+    </div>
+    <div class="float-card">
+      <div class="float-label">Experience</div>
+      <div class="float-value">2+</div>
+      <div class="float-sub">Years of expertise</div>
+    </div>
+    <div class="float-card">
+      <div class="float-label">Client Rating</div>
+      <div class="float-value">5.0 <img src="imgs/star (3).png" alt="" width="20" height="20"></div>
+      <div class="float-sub">Always satisfied</div>
+    </div>
+  </div>
+
+  ⭐
+
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-img-wrap reveal">
+      <div class="about-img-placeholder">
+        <div class="about-avatar-icon"><img src="imgs/Z.PNG" alt="" width="270px" height="350px"></div>
+        <div class="about-avatar-name">Zaryab</div>
+        <div class="about-avatar-role">Frontend Developer</div>
+      </div>
+      <div class="about-corner tl"><img src="imgs/idea.png" alt="" width="45px" height="50px"></div>
+      <div class="about-corner br"><img src="imgs/rocket.png" alt="" width="45px" height="50px"></div>
+    </div>
+    <div class="about-text reveal">
+      <div class="section-tag">About Me</div>
+      <h2 class="section-title">Crafting <em>Digital</em> Experiences</h2>
+      <p class="section-desc">
+        Hi, I'm Zaryab — a passionate frontend developer with a keen eye for design and a love for clean, efficient code. I specialize in building responsive, user-centric web interfaces that blend aesthetics with functionality.
+      </p>
+      <p class="section-desc">
+        From crafting accessible, cross-browser UI components to integrating modern JavaScript frameworks, I bring ideas to life with precision. I believe the best interfaces are the ones users don't have to think about.
+      </p>
+      <a href="#contact" class="btn-primary" style="display:inline-flex; margin-top: 8px;">Get In Touch →</a>
+      <div class="about-stats">
+        <div class="stat-box">
+          <span class="stat-num">15+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">2+</span>
+          <span class="stat-label">Yrs Exp.</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Dedication</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="skills-intro reveal">
+    <div class="section-tag">Tech Stack</div>
+    <h2 class="section-title">Skills & <em>Tools</em></h2>
+    <p>Technologies I work with daily to build modern, performant, and accessible web applications.</p>
+  </div>
+  <div class="skills-grid reveal">
+    <div class="skill-pill">
+      <span class="skill-icon"><img src="imgs/html-5.png" alt="" width="40" height="40"></span>
+      <span class="skill-name">HTML5</span>
+      <span class="skill-level">Expert</span>
+    </div>
+    <div class="skill-pill">
+      <span class="skill-icon"><img src="imgs/css-3.png" alt="" width="40" height="40"></span>
+      <span class="skill-name">CSS3</span>
+      <span class="skill-level">Expert</span>
+    </div>
+    <div class="skill-pill">
+      <span class="skill-icon"><img src="imgs/js.png" alt="" width="40" height="40"></span>
+      <span class="skill-name">JavaScript</span>
+      <span class="skill-level">Advanced</span>
+    </div>
+    <div class="skill-pill">
+      <span class="skill-icon"><img src="imgs/mobile.png" alt="" width="40" height="40"></span>
+      <span class="skill-name">Jquery</span>
+      <span class="skill-level">Advanced</span>
+    </div>
+    <div class="skill-pill">
+      <span class="skill-icon"><img src="imgs/bootstrap.png" alt="" width="40" height="40"></span>
+      <span class="skill-name">Bootstrap</span>
+      <span class="skill-level">Advance</span>
+    </div>
+   
+  
+    
+    <div class="skill-pill">
+      <span class="skill-icon"><img src="imgs/github.png" alt="" width="40" height="40"></span>
+      <span class="skill-name">Git & GitHub</span>
+      <span class="skill-level">Advanced</span>
+    </div>
+
+    <div class="skill-pill">
+      <span class="skill-icon"><img src="imgs/employee.png" alt="" width="40px" height="40px"></span>
+      <span class="skill-name">English Language</span>
+      <span class="skill-level">Advance</span>
+    </div>
+    <div class="skill-pill">
+      <span class="skill-icon"><img src="imgs/responsive-design.png" alt="" width="40" height="40"></span>
+      <span class="skill-name">Responsive UI</span>
+      <span class="skill-level">Expert</span>
+    </div>
+  </div>
+
+  <div class="skills-bars reveal" style="max-width: 600px; margin-top: 60px;">
+    <div class="skills-bars-title">Proficiency Levels</div>
+    <div class="bar-item">
+      <div class="bar-header"><span class="bar-name">HTML</span><span class="bar-pct">90%</span></div>
+      <div class="bar-track"><div class="bar-fill" style="--w: 0.95"></div></div>
+    </div>
+    <div class="bar-item">
+      <div class="bar-header"><span class="bar-name">CSS</span><span class="bar-pct">90%</span></div>
+      <div class="bar-track"><div class="bar-fill" style="--w: 0.85"></div></div>
+    </div>
+    <div class="bar-item">
+      <div class="bar-header"><span class="bar-name">Javascript</span><span class="bar-pct">90%</span></div>
+      <div class="bar-track"><div class="bar-fill" style="--w: 0.82"></div></div>
+    </div>
+    <div class="bar-item">
+      <div class="bar-header"><span class="bar-name">Jquery</span><span class="bar-pct">90%</span></div>
+      <div class="bar-track"><div class="bar-fill" style="--w: 0.78"></div></div>
+    </div>
+    <div class="bar-item">
+      <div class="bar-header"><span class="bar-name">Bootstrap</span><span class="bar-pct">90%</span></div>
+      <div class="bar-track"><div class="bar-fill" style="--w: 0.90"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="projects-header">
+    <div class="reveal">
+      <div class="section-tag">Portfolio</div>
+      <h2 class="section-title">Featured <em>Projects</em></h2>
+    </div>
+    <a href="#contact" class="btn-secondary reveal" style="align-self: flex-end;">View All →</a>
+  </div>
+  <div class="projects-grid">
+
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <div class="project-thumb-bg" style="background: linear-gradient(135deg, #0f172a, #1e3a5f);"></div>
+        <span class="project-thumb-label"><img src="imgs/Shine-Utensils-SS.PNG" alt="" width="380px" height="220px"></span>
+        <div class="project-overlay">
+  <a href="https://zaryabdeveloper.github.io/Shine-Utensils/" target="_blank" class="project-link-btn plb-live">Live Preview</a>
+  <a href="https://github.com/zaryabdeveloper/Shine-Utensils" target="_blank" class="project-link-btn plb-code">GitHub</a>
+</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript etc</span>
+        </div>
+        <div class="project-name">Shine-Utensils</div>
+        <p class="project-desc">A modern showcase website for Shine Utensils, featuring clean product displays, smooth navigation, and a sleek responsive design. Built for performance with lazy loading and optimized assets to ensure fast and seamless browsing.</p>
+      </div>
+    </div>
+    
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <div class="project-thumb-bg" style="background: linear-gradient(135deg, #0d2b1a, #064e3b);"></div>
+        <span class="project-thumb-label"><img src="imgs/Travel-Guide-SS.PNG" alt="" width="380px" height="220px"></span>
+        <div class="project-overlay">
+          <a href="https://zaryabdeveloper.github.io/TravelGuidePK/" class="project-link-btn plb-live">Live Preview</a>
+          <a href="https://github.com/zaryabdeveloper/TravelGuidePK" class="project-link-btn plb-code">GitHub</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript etc</span>
+        </div>
+        <div class="project-name">Travel-GuidePK</div>
+        <p class="project-desc">A clean, accessible landing page for a healthcare startup featuring smooth scroll animations, appointment booking UI, and WCAG-compliant color contrast.</p>
+      </div>
+    </div>
+
+
+
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <div class="project-thumb-bg" style="background: linear-gradient(135deg, #1a0533, #4c1d95);"></div>
+        <span class="project-thumb-label"><img src="imgs/Shah-Watches-SS.PNG" alt="" width="380px" height="220px"></span>
+        <div class="project-overlay">
+          <a href="https://zaryabdeveloper.github.io/ShahWatches/" class="project-link-btn plb-live">Live Preview</a>
+          <a href="https://github.com/zaryabdeveloper/ShahWatches" class="project-link-btn plb-code">GitHub</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript etc</span>
+        </div>
+        <div class="project-name">Shah-Watches</div>
+        <p class="project-desc">A premium product showcase website for SHAH Watches featuring elegant layouts, smooth interactions, and refined UI design. Built with responsive performance, optimized assets, and a clean user experience to highlight luxury timepieces.
+</p>
+      </div>
+    </div>
+
+
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <div class="project-thumb-bg" style="background: linear-gradient(135deg, #1a1200, #78350f);"></div>
+        <span class="project-thumb-label"><img src="imgs/Smart-Academy-SS.PNG" alt="" width="380px" height="220px"></span>
+        <div class="project-overlay">
+          <a href="https://zaryabdeveloper.github.io/SmartAcademy/" class="project-link-btn plb-live">Live Preview</a>
+          <a href="https://github.com/zaryabdeveloper/SmartAcademy" class="project-link-btn plb-code">GitHub</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript etc</span>
+        </div>
+        <div class="project-name">Smart Academy</div>
+        <p class="project-desc">An interactive educational platform for Smart Academy featuring dynamic course sections, smooth navigation, and engaging micro-interactions. Designed with a clean, responsive UI and optimized performance for a seamless learning experience.
+</p>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <div class="project-thumb-bg" style="background: linear-gradient(135deg, #001a33, #1e40af);"></div>
+        <span class="project-thumb-label"><img src="imgs/Pak-MArt-SS.PNG" alt="" width="380px" height="220px"></span>
+        <div class="project-overlay">
+          <a href="https://zaryabdeveloper.github.io/PakMart/" class="project-link-btn plb-live">Live Preview</a>
+          <a href="https://github.com/zaryabdeveloper/PakMart" class="project-link-btn plb-code">GitHub</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript etc</span>
+        </div>
+        <div class="project-name">Pak Mart PK</div>
+        <p class="project-desc"> A modern retail showcase website for Pak Mart PK featuring clean product sections, category-based browsing, and a smooth responsive layout. Built for performance with optimized assets and a user-friendly interface for seamless exploration.
+ </p>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <div class="project-thumb-bg" style="background: linear-gradient(135deg, #1a0a1a, #831843);"></div>
+        <span class="project-thumb-label"><img src="imgs/Fit-life-SS.PNG" alt="" width="380px" height="220px"></span>
+        <div class="project-overlay">
+          <a href="https://zaryabdeveloper.github.io/FitlifeGym/" class="project-link-btn plb-live">Live Preview</a>
+          <a href="https://github.com/zaryabdeveloper/FitlifeGym" class="project-link-btn plb-code">GitHub</a>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript etc</span>
+        </div>
+        <div class="project-name">Fit Life Gym</div>
+        <p class="project-desc">A dynamic fitness website for Fit Life Gym featuring energetic visuals, animated sections, and smooth scrolling interactions. Designed with a modern responsive layout and optimized performance to deliver an engaging and motivating user experience.
+</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-tag reveal">Contact</div>
+    <h2 class="section-title reveal">Let's Build <em>Together</em></h2>
+    <p class="reveal">Have a project in mind? I'd love to hear about it. Let's create something amazing together.</p>
+
+    <div class="contact-cards reveal">
+      <a href="mailto:zaryabaptech11@email.com" class="contact-card">
+        <div class="cc-icon"><img src="imgs/mail.png" alt="" width="45" height="50"></div>
+        <div class="cc-label">Email</div>
+        <div class="cc-value">zaryabaptech11@email.com</div>
+      </a>
+      <a href="https://wa.me/923000000000" target="_blank" class="contact-card">
+        <div class="cc-icon"><img src="imgs/messages.png" alt="" width="45" height="50"></div>
+        <div class="cc-label">WhatsApp</div>
+        <div class="cc-value">+92 317 2363 575</div>
+      </a>
+
+      
+      <!-- <a href="https://linkedin.com/in/zaryab" target="_blank" class="contact-card">
+        <div class="cc-icon">🔗</div>
+        <div class="cc-label">LinkedIn</div>
+        <div class="cc-value">in/zaryab</div>
+      </a>
+       -->
+      
+
+       <a href="https://github.com/zaryabdeveloper" target="_blank" class="contact-card">
+        <div class="cc-icon"><img src="imgs/github.png" alt="" width="45" height="50"></div>
+        <div class="cc-label">GitHub</div>
+        <div class="cc-value">zaryabdeveloper</div>
+      </a>
+    </div>
+
+    <!-- <div class="contact-form reveal">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="John Doe" id="f-name">
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="john@example.com" id="f-email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Subject</label>
+        <input type="text" placeholder="Project Collaboration" id="f-subject">
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea placeholder="Tell me about your project..." id="f-message"></textarea>
+      </div>
+      <button class="form-submit" onclick="submitForm()">Send Message 🚀</button>
+      <div class="form-success" id="form-success">✅ Message sent! I'll get back to you soon.</div>
+    </div> -->
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Z<span>.</span>aryab</div>
+  <p>© 2025 Zaryab. Built with ❤️ and clean code.</p>
+  <div class="footer-socials">
+    <a href="https://github.com/" title="GitHub"><img src="imgs/github.png" alt="" width="20" height="20"></a>
+    <!-- <a href="https://www.linkedin.com/" title="LinkedIn">💼</a> -->
+    <!-- <a href="https://about.x.com/en" title="Twitter">🐦</a> -->
+    <a href="https://web.whatsapp.com/" title="WhatsApp"><img src="imgs/messages.png" alt="" width="20" height="20"></a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
